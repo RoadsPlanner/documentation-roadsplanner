@@ -1,0 +1,35 @@
+site_name: Documentation RoadsPlanner
+site_url: https://roadsplanner.github.io/documentation-roadsplanner/
+repo_url: https://github.com/RoadsPlanner
+repo_name: RoadsPlanner
+nav :
+  - Accueil: index.md
+  - Contexte et besoins : contexte_besoin.md
+  - Personas : personas.md
+  - Comparatif technologique : comparatif.md
+  - Choix de la technologie : technologie.md
+  - Organisation des dépôts : depots.md
+theme:
+  name: material
+  language: fr
+
+  palette:
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Basculer en mode sombre
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Basculer en mode clair
+markdown_extensions:
+  - attr_list
+  - tables
+
+extra_css:
+  - style/classes.css
+  - style/extra.css
