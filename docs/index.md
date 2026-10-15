@@ -36,6 +36,7 @@ Ce site a pour vocation de présenter notre **démarche de conception**. Vous y 
 *   **Les personas :** les trois profils d'utilisateurs qui ont guidé nos choix.
 *   **Le comparatif technologique :** application cross-plateforme ou PWA installée.
 *   **Le choix de la technologie :** pourquoi nous sommes partis sur une PWA.
+*   **Le RGPD :** les premiers points à respecter pour la protection des données personnelles.
 *   **L'organisation des dépôts :** ce que contient chaque dépôt de l'organisation GitHub.
 
 ---

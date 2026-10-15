@@ -8,6 +8,7 @@ nav :
   - Personas : personas.md
   - Comparatif technologique : comparatif.md
   - Choix de la technologie : technologie.md
+  - RGPD : rgpd.md
   - Organisation des dépôts : depots.md
 theme:
   name: material
