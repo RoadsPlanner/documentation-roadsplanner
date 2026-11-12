@@ -1,0 +1,1286 @@
+
+<!doctype html>
+<html lang="fr" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://roadsplanner.github.io/documentation-roadsplanner/accessibilite/">
+      
+      
+        <link rel="prev" href="../rgpd/">
+      
+      
+        <link rel="next" href="../depots/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.1">
+    
+    
+      
+        <title>Accessibilité - Documentation RoadsPlanner</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.57a0d79d.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.fb2fffe2.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../style/classes.css">
+    
+      <link rel="stylesheet" href="../style/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#accessibilite" class="md-skip">
+          Aller au contenu
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="En-tête">
+    <a href=".." title="Documentation RoadsPlanner" class="md-header__button md-logo" aria-label="Documentation RoadsPlanner" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Documentation RoadsPlanner
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Accessibilité
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Basculer en mode sombre"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Basculer en mode sombre" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Basculer en mode clair"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Basculer en mode clair" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Rechercher" placeholder="Rechercher" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Recherche">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Effacer" aria-label="Effacer" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initialisation de la recherche
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/RoadsPlanner" title="Aller au dépôt" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    RoadsPlanner
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Documentation RoadsPlanner" class="md-nav__button md-logo" aria-label="Documentation RoadsPlanner" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Documentation RoadsPlanner
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/RoadsPlanner" title="Aller au dépôt" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    RoadsPlanner
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Accueil
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contexte_besoin/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contexte et besoins
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../personas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Personas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../comparatif/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Comparatif technologique
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../technologie/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Choix de la technologie
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../rgpd/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RGPD
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Accessibilité
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Accessibilité
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#pourquoi-cest-important-pour-roadsplanner" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pourquoi c'est important pour RoadsPlanner
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#les-regles-obligatoires" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Les règles obligatoires
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Les règles obligatoires">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#en-france-larticle-47-de-la-loi-de-2005" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        En France : l'article 47 de la loi de 2005
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#les-sanctions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Les sanctions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#en-europe-lacte-europeen-sur-laccessibilite" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        En Europe : l'acte européen sur l'accessibilité
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#le-referentiel-a-suivre-le-rgaa" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Le référentiel à suivre : le RGAA
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#et-pour-roadsplanner" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Et pour RoadsPlanner ?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comment-faciliter-lacces" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Comment faciliter l'accès
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Comment faciliter l&#39;accès">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#couleurs-et-contrastes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Couleurs et contrastes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#taille-du-texte-et-affichage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Taille du texte et affichage
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#boutons-et-zones-tactiles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Boutons et zones tactiles
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#navigation-au-clavier" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Navigation au clavier
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lecteurs-decran" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lecteurs d'écran
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#la-carte" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        La carte
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#formulaires" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Formulaires
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#connexion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Connexion
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#animations-et-temps-limite" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Animations et temps limité
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#un-contenu-simple-et-coherent" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Un contenu simple et cohérent
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comment-verifier" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Comment vérifier
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a-faire-plus-tard" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        À faire plus tard
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sources" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sources
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../depots/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Organisation des dépôts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../suivi-tokens/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Suivi des tokens
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#pourquoi-cest-important-pour-roadsplanner" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pourquoi c'est important pour RoadsPlanner
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#les-regles-obligatoires" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Les règles obligatoires
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Les règles obligatoires">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#en-france-larticle-47-de-la-loi-de-2005" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        En France : l'article 47 de la loi de 2005
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#les-sanctions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Les sanctions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#en-europe-lacte-europeen-sur-laccessibilite" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        En Europe : l'acte européen sur l'accessibilité
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#le-referentiel-a-suivre-le-rgaa" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Le référentiel à suivre : le RGAA
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#et-pour-roadsplanner" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Et pour RoadsPlanner ?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comment-faciliter-lacces" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Comment faciliter l'accès
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Comment faciliter l&#39;accès">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#couleurs-et-contrastes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Couleurs et contrastes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#taille-du-texte-et-affichage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Taille du texte et affichage
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#boutons-et-zones-tactiles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Boutons et zones tactiles
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#navigation-au-clavier" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Navigation au clavier
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lecteurs-decran" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lecteurs d'écran
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#la-carte" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        La carte
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#formulaires" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Formulaires
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#connexion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Connexion
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#animations-et-temps-limite" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Animations et temps limité
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#un-contenu-simple-et-coherent" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Un contenu simple et cohérent
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comment-verifier" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Comment vérifier
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a-faire-plus-tard" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        À faire plus tard
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sources" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sources
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="accessibilite">Accessibilité</h1>
+<p>L'accessibilité numérique consiste à rendre une application utilisable par tout le monde, y compris les personnes en situation de handicap : handicap visuel (aveugles, malvoyants, daltoniens), auditif, moteur (difficulté à utiliser une souris ou un écran tactile), cognitif, ou les personnes âgées dont la vue et la précision baissent. D'après l'Organisation mondiale de la santé, environ 1,3 milliard de personnes, soit une personne sur six dans le monde, vivent avec un handicap important.</p>
+<p>Comme pour le <a href="../rgpd/">RGPD</a>, le projet en est à ses débuts : cette page reprend les règles qui existent, ce qui s'applique ou non à RoadsPlanner, et les bonnes pratiques qu'on veut suivre dès le début. Chaque point renvoie au texte officiel ou à la norme correspondante. La liste complète des sources est en <a href="#sources">bas de page</a>.</p>
+<h2 id="pourquoi-cest-important-pour-roadsplanner">Pourquoi c'est important pour RoadsPlanner</h2>
+<p>Plusieurs situations de nos <a href="../personas/">personas</a> touchent directement à l'accessibilité :</p>
+<ul>
+<li><strong>Les proches :</strong> Nourdine veut faire participer les grands-parents. Une personne âgée a souvent besoin d'un texte plus grand, de contrastes forts et de boutons faciles à toucher.</li>
+<li><strong>Le téléphone pendant le voyage :</strong> on consulte l'application dans une voiture, en plein soleil, parfois d'une seule main. Un handicap temporaire ou une situation difficile demandent les mêmes efforts qu'un handicap permanent.</li>
+<li><strong>Les vieux téléphones :</strong> Léa utilise un Android de 2021. Une application légère, qui supporte le zoom et les réglages de taille de texte du téléphone, reste utilisable sur un petit écran.</li>
+<li><strong>Le partage par lien :</strong> un invité qui ouvre le voyage ne choisit pas son appareil. Il peut utiliser un lecteur d'écran, une plage braille ou une navigation au clavier.</li>
+</ul>
+<p>Un voyageur en situation de handicap a aussi des besoins propres à la préparation du voyage (hébergement accessible, places de stationnement réservées, toilettes adaptées). RoadsPlanner doit lui permettre de noter ces informations facilement, en gardant en tête que ce sont des données de santé (voir la partie sur les données sensibles de la page <a href="../rgpd/#les-donnees-sensibles">RGPD</a>).</p>
+<h2 id="les-regles-obligatoires">Les règles obligatoires</h2>
+<h3 id="en-france-larticle-47-de-la-loi-de-2005">En France : l'article 47 de la loi de 2005</h3>
+<p>La loi n° 2005-102 du 11 février 2005 pour l'égalité des droits et des chances des personnes handicapées impose, dans son article 47, que les services en ligne (sites, applications mobiles, logiciels) soient accessibles. L'obligation concerne :</p>
+<ul>
+<li>les personnes morales de droit public (État, collectivités, établissements publics, universités...) ;</li>
+<li>les organismes privés chargés d'une mission de service public, et ceux créés par des organismes publics ;</li>
+<li>les entreprises dont le chiffre d'affaires dépasse un seuil fixé par décret.</li>
+</ul>
+<p>Les organismes concernés doivent :</p>
+<ul>
+<li>publier une <strong>déclaration d'accessibilité</strong> qui indique le niveau de conformité du service ;</li>
+<li>afficher sur la page d'accueil une <strong>mention clairement visible</strong> qui dit si le service est conforme ou non ;</li>
+<li>publier un <strong>schéma pluriannuel</strong> de mise en accessibilité (3 ans maximum) et des plans d'actions annuels ;</li>
+<li>donner un moyen de <strong>signaler un problème</strong> d'accessibilité.</li>
+</ul>
+<p><em>Référence : <a href="https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000048050213">article 47 de la loi n° 2005-102</a>, <a href="https://accessibilite.numerique.gouv.fr/obligations/">DINUM : les obligations</a>.</em></p>
+<h3 id="les-sanctions">Les sanctions</h3>
+<p>Depuis l'ordonnance du 6 septembre 2023, c'est l'Arcom qui contrôle le respect de ces obligations. Après une mise en demeure rendue publique, la sanction peut aller jusqu'à <strong>50 000 €</strong> si le service n'est pas accessible, et <strong>25 000 €</strong> si la déclaration d'accessibilité, la mention sur la page d'accueil ou le schéma pluriannuel manquent.</p>
+<p><em>Référence : <a href="https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000048050174">article 47-1 de la loi n° 2005-102</a>.</em></p>
+<h3 id="en-europe-lacte-europeen-sur-laccessibilite">En Europe : l'acte européen sur l'accessibilité</h3>
+<p>La directive (UE) 2019/882, appelée « European Accessibility Act », s'applique depuis le <strong>28 juin 2025</strong>. Elle étend l'obligation d'accessibilité à des produits et services du secteur privé : commerce en ligne, services bancaires, livres numériques, communications électroniques, et certains services de transport de voyageurs (sites, applications et billetterie). En France, elle a été transposée dans la loi de 2005 et dans le Code de la consommation.</p>
+<p>Les <strong>microentreprises</strong> (moins de 10 salariés et moins de 2 millions d'euros de chiffre d'affaires ou de bilan annuel) qui fournissent des services ne sont pas concernées.</p>
+<p><em>Référence : <a href="https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32019L0882">directive (UE) 2019/882</a>, <a href="https://www.consilium.europa.eu/fr/policies/accessibility-goods-services/">Conseil de l'UE : accessibilité des produits et services</a>.</em></p>
+<h3 id="le-referentiel-a-suivre-le-rgaa">Le référentiel à suivre : le RGAA</h3>
+<p>En France, l'accessibilité se vérifie avec le <strong>RGAA</strong> (Référentiel général d'amélioration de l'accessibilité), publié par la DINUM. La version en vigueur est la <strong>4.1.2</strong>, qui contient 106 critères (images, couleurs, formulaires, navigation, etc.). Chaque critère est accompagné de tests pour vérifier si une page le respecte. Une version 5 est en cours de rédaction, avec une publication prévue fin 2026.</p>
+<p>Le RGAA s'appuie sur les <strong>WCAG</strong> (Web Content Accessibility Guidelines), les règles internationales du W3C, et reprend leurs critères de niveau A et <strong>AA</strong>. La dernière version, les WCAG 2.2, est une recommandation officielle du W3C depuis décembre 2024 ; c'est elle que le RGAA 5 doit intégrer.</p>
+<p><em>Référence : <a href="https://accessibilite.numerique.gouv.fr/">RGAA 4.1.2</a>, <a href="https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests/">critères et tests du RGAA</a>, <a href="https://www.w3.org/TR/WCAG22/">WCAG 2.2</a>.</em></p>
+<h3 id="et-pour-roadsplanner">Et pour RoadsPlanner ?</h3>
+<p>Aujourd'hui, RoadsPlanner est un projet étudiant : ce n'est ni un service public, ni une entreprise au-dessus du seuil, ni un des services listés par la directive européenne (on ne vend rien, on ne fait pas de transport ni de réservation). L'application n'est donc <strong>pas soumise</strong> à ces obligations pour l'instant.</p>
+<p>On choisit quand même de suivre le RGAA et les WCAG niveau AA dès le début :</p>
+<ul>
+<li>c'est beaucoup plus simple que de corriger une application déjà terminée ;</li>
+<li>nos personas incluent des personnes âgées et un usage sur téléphone en voiture ;</li>
+<li>si l'application évoluait (vente de services, réservation, partenariat avec une collectivité), elle pourrait devenir concernée.</li>
+</ul>
+<h2 id="comment-faciliter-lacces">Comment faciliter l'accès</h2>
+<p>Les règles ci-dessous sont celles qui concernent le plus une application de road trip. Chacune renvoie au critère WCAG correspondant (les critères du RGAA reprennent les mêmes règles).</p>
+<h3 id="couleurs-et-contrastes">Couleurs et contrastes</h3>
+<ul>
+<li>Le texte doit avoir un contraste d'au moins <strong>4,5:1</strong> avec le fond (3:1 pour le texte en grand). C'est indispensable pour lire l'écran en plein soleil.</li>
+<li>Une information ne doit jamais être donnée <strong>seulement par la couleur</strong>. Par exemple, l'indicateur de synchronisation ne doit pas être juste un point vert ou rouge : il faut aussi un texte ou une icône (« Synchronisé », « Hors ligne »).</li>
+<li>Les deux thèmes (clair et sombre) doivent respecter ces contrastes.</li>
+</ul>
+<p><em>Référence : WCAG <a href="https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html">1.4.1 Utilisation de la couleur</a>, <a href="https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html">1.4.3 Contraste minimum</a>, <a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html">1.4.11 Contraste du contenu non textuel</a>.</em></p>
+<h3 id="taille-du-texte-et-affichage">Taille du texte et affichage</h3>
+<ul>
+<li>L'application doit rester utilisable quand le texte est agrandi à <strong>200 %</strong>, par exemple avec les réglages du téléphone.</li>
+<li>Le contenu doit s'afficher sans défilement horizontal sur un écran de <strong>320 pixels</strong> de large.</li>
+<li>Il ne faut pas bloquer le zoom dans le navigateur, ni forcer une orientation (portrait ou paysage), car un téléphone fixé sur un support en voiture est souvent en paysage.</li>
+</ul>
+<p><em>Référence : WCAG <a href="https://www.w3.org/WAI/WCAG22/Understanding/resize-text.html">1.4.4 Redimensionnement du texte</a>, <a href="https://www.w3.org/WAI/WCAG22/Understanding/reflow.html">1.4.10 Redistribution</a>, <a href="https://www.w3.org/WAI/WCAG22/Understanding/orientation.html">1.3.4 Orientation</a>.</em></p>
+<h3 id="boutons-et-zones-tactiles">Boutons et zones tactiles</h3>
+<ul>
+<li>Les boutons doivent faire au moins <strong>24 × 24 pixels</strong> (niveau AA), et idéalement 44 × 44 pixels pour un usage sur téléphone.</li>
+<li>Les actions qui demandent un geste compliqué (glisser une étape pour la déplacer, pincer la carte) doivent aussi être possibles avec un simple appui, par exemple avec des boutons « monter » et « descendre ».</li>
+</ul>
+<p><em>Référence : WCAG <a href="https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html">2.5.8 Taille de la cible (minimum)</a>, <a href="https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements.html">2.5.7 Mouvements de glissement</a>.</em></p>
+<h3 id="navigation-au-clavier">Navigation au clavier</h3>
+<ul>
+<li>Toutes les fonctionnalités doivent être utilisables au clavier seul, sans souris (sur ordinateur, c'est le cas des personnes qui ne peuvent pas utiliser leurs mains finement).</li>
+<li>L'élément sélectionné doit toujours être visible (contour de focus), et l'ordre de navigation doit suivre l'ordre logique de la page.</li>
+<li>Une fenêtre ouverte (ajout d'une étape par exemple) ne doit pas piéger le clavier.</li>
+</ul>
+<p><em>Référence : WCAG <a href="https://www.w3.org/WAI/WCAG22/Understanding/keyboard.html">2.1.1 Clavier</a>, <a href="https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap.html">2.1.2 Pas de piège au clavier</a>, <a href="https://www.w3.org/WAI/WCAG22/Understanding/focus-visible.html">2.4.7 Visibilité du focus</a>.</em></p>
+<h3 id="lecteurs-decran">Lecteurs d'écran</h3>
+<p>Les personnes aveugles utilisent un lecteur d'écran (VoiceOver sur iPhone, TalkBack sur Android, NVDA sur Windows) qui lit la page à voix haute. Pour qu'il fonctionne :</p>
+<ul>
+<li>utiliser les bonnes balises HTML (<code>&lt;button&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;h1&gt;</code> à <code>&lt;h6&gt;</code>, <code>&lt;ul&gt;</code>) plutôt que des <code>&lt;div&gt;</code> cliquables ;</li>
+<li>donner une alternative textuelle aux images et aux icônes seules (une icône « poubelle » doit être lue « Supprimer l'étape ») ;</li>
+<li>indiquer la langue de la page (<code>&lt;html lang="fr"&gt;</code>) ;</li>
+<li>annoncer les changements qui apparaissent sans rechargement, comme « Voyage synchronisé » ou « Vous êtes hors ligne », avec une zone <code>aria-live</code>.</li>
+</ul>
+<p><em>Référence : WCAG <a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content.html">1.1.1 Contenu non textuel</a>, <a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships.html">1.3.1 Information et relations</a>, <a href="https://www.w3.org/WAI/WCAG22/Understanding/language-of-page.html">3.1.1 Langue de la page</a>, <a href="https://www.w3.org/WAI/WCAG22/Understanding/status-messages.html">4.1.3 Messages d'état</a>, <a href="https://developer.mozilla.org/fr/docs/Web/Accessibility/ARIA/Guides/Live_regions">MDN : les régions ARIA live</a>.</em></p>
+<h3 id="la-carte">La carte</h3>
+<p>Une carte interactive est très difficile à utiliser avec un lecteur d'écran ou au clavier. La carte ne doit donc jamais être le seul moyen d'accéder à l'itinéraire : les étapes doivent aussi être affichées sous forme de <strong>liste textuelle</strong> (nom du lieu, adresse, date, motif du repérage), qui permet de tout consulter et modifier.</p>
+<p><em>Référence : WCAG <a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content.html">1.1.1 Contenu non textuel</a>.</em></p>
+<h3 id="formulaires">Formulaires</h3>
+<ul>
+<li>Chaque champ a une étiquette visible (pas seulement un texte d'exemple qui disparaît quand on écrit).</li>
+<li>Les erreurs sont expliquées en texte, à côté du champ concerné, avec une suggestion pour corriger (« La date de fin doit être après la date de début »).</li>
+<li>Les champs connus (nom, e-mail) utilisent l'attribut <code>autocomplete</code> pour être remplis automatiquement.</li>
+</ul>
+<p><em>Référence : WCAG <a href="https://www.w3.org/WAI/WCAG22/Understanding/error-identification.html">3.3.1 Identification des erreurs</a>, <a href="https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions.html">3.3.2 Étiquettes ou instructions</a>, <a href="https://www.w3.org/WAI/WCAG22/Understanding/identify-input-purpose.html">1.3.5 Identifier la finalité des champs</a>.</em></p>
+<h3 id="connexion">Connexion</h3>
+<p>La connexion ne doit pas demander un effort de mémoire ou de calcul (recopier un code compliqué, résoudre une énigme). Il faut permettre le copier-coller du mot de passe et l'utilisation d'un gestionnaire de mots de passe.</p>
+<p><em>Référence : WCAG <a href="https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication-minimum.html">3.3.8 Authentification accessible (minimum)</a>.</em></p>
+<h3 id="animations-et-temps-limite">Animations et temps limité</h3>
+<ul>
+<li>Respecter le réglage « réduire les animations » du système avec la requête CSS <code>prefers-reduced-motion</code>, pour les personnes sensibles aux mouvements.</li>
+<li>Ne pas imposer de temps limité, par exemple une déconnexion pendant qu'on remplit un formulaire, sans prévenir et sans pouvoir prolonger.</li>
+</ul>
+<p><em>Référence : WCAG <a href="https://www.w3.org/WAI/WCAG22/Understanding/timing-adjustable.html">2.2.1 Réglage du délai</a>, <a href="https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions.html">2.3.3 Animation résultant d'interactions</a>, <a href="https://developer.mozilla.org/fr/docs/Web/CSS/@media/prefers-reduced-motion">MDN : prefers-reduced-motion</a>.</em></p>
+<h3 id="un-contenu-simple-et-coherent">Un contenu simple et cohérent</h3>
+<ul>
+<li>Des textes courts et clairs, sans jargon technique (« Vos modifications seront envoyées au retour du réseau » plutôt que « Sync en attente »).</li>
+<li>Les menus et les boutons restent au même endroit sur toutes les pages.</li>
+<li>Des titres de page qui disent où on se trouve (« Étapes – Road trip en Bretagne »).</li>
+</ul>
+<p><em>Référence : WCAG <a href="https://www.w3.org/WAI/WCAG22/Understanding/page-titled.html">2.4.2 Titre de page</a>, <a href="https://www.w3.org/WAI/WCAG22/Understanding/consistent-navigation.html">3.2.3 Navigation cohérente</a>.</em></p>
+<h2 id="comment-verifier">Comment vérifier</h2>
+<p>Les outils automatiques ne détectent qu'une partie des problèmes. Il faut donc combiner :</p>
+<ul>
+<li><strong>Des outils automatiques :</strong> l'audit Accessibilité de <a href="https://developer.chrome.com/docs/lighthouse/accessibility/scoring">Lighthouse</a> (intégré à Chrome), <a href="https://github.com/dequelabs/axe-core">axe</a> ou <a href="https://wave.webaim.org/">WAVE</a>.</li>
+<li><strong>Des tests à la main :</strong> parcourir l'application au clavier seul, agrandir le texte à 200 %, tester avec un lecteur d'écran (<a href="https://www.nvaccess.org/">NVDA</a> sur Windows, VoiceOver sur iPhone et Mac, <a href="https://support.google.com/accessibility/android/answer/6283677?hl=fr">TalkBack</a> sur Android).</li>
+<li><strong>La méthode du RGAA :</strong> vérifier les critères un par un sur un échantillon de pages, avec la <a href="https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests/">méthode technique du RGAA</a>.</li>
+</ul>
+<h2 id="a-faire-plus-tard">À faire plus tard</h2>
+<ul>
+<li>Choisir des couleurs pour la charte graphique qui respectent les contrastes, en thème clair et sombre.</li>
+<li>Ajouter un audit d'accessibilité automatique dans l'intégration continue.</li>
+<li>Tester les écrans principaux (liste des étapes, carte, partage) avec un lecteur d'écran.</li>
+<li>Rédiger une page accessibilité et une déclaration d'accessibilité, même si ce n'est pas obligatoire pour nous, en s'aidant du <a href="https://accessibilite.numerique.gouv.fr/obligations/declaration-accessibilite/">générateur de la DINUM</a>.</li>
+<li>Suivre la publication du RGAA 5, prévue fin 2026.</li>
+</ul>
+<h2 id="sources">Sources</h2>
+<p><strong>Textes officiels</strong></p>
+<ul>
+<li><a href="https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000809647">Loi n° 2005-102 du 11 février 2005 pour l'égalité des droits et des chances, la participation et la citoyenneté des personnes handicapées</a>, Légifrance</li>
+<li><a href="https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000048050213">Article 47 de la loi n° 2005-102</a>, Légifrance</li>
+<li><a href="https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000048050174">Article 47-1 de la loi n° 2005-102</a>, Légifrance</li>
+<li><a href="https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32019L0882">Directive (UE) 2019/882 du 17 avril 2019 relative aux exigences en matière d'accessibilité applicables aux produits et services</a>, EUR-Lex</li>
+</ul>
+<p><strong>Institutions</strong></p>
+<ul>
+<li><a href="https://accessibilite.numerique.gouv.fr/">Accessibilité numérique : RGAA 4.1.2</a>, DINUM</li>
+<li><a href="https://accessibilite.numerique.gouv.fr/obligations/">Les obligations</a>, DINUM</li>
+<li><a href="https://accessibilite.numerique.gouv.fr/obligations/declaration-accessibilite/">La déclaration d'accessibilité</a>, DINUM</li>
+<li><a href="https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests/">Critères et tests du RGAA</a>, DINUM</li>
+<li><a href="https://www.consilium.europa.eu/fr/policies/accessibility-goods-services/">Accessibilité des produits et services</a>, Conseil de l'Union européenne</li>
+<li><a href="https://www.who.int/fr/news-room/fact-sheets/detail/disability-and-health">Handicap et santé</a>, Organisation mondiale de la santé</li>
+</ul>
+<p><strong>Normes et documentation technique</strong></p>
+<ul>
+<li><a href="https://www.w3.org/TR/WCAG22/">Web Content Accessibility Guidelines (WCAG) 2.2</a>, W3C</li>
+<li><a href="https://www.w3.org/WAI/WCAG22/Understanding/">Comprendre les critères des WCAG 2.2</a>, W3C (en anglais)</li>
+<li><a href="https://www.w3.org/WAI/fundamentals/accessibility-intro/fr">Introduction à l'accessibilité du Web</a>, W3C WAI</li>
+<li><a href="https://developer.mozilla.org/fr/docs/Web/Accessibility">Accessibilité</a>, MDN</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": [], "search": "../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.a5f9d56c.min.js"></script>
+      
+    
+  </body>
+</html>

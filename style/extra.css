@@ -1,0 +1,16 @@
+:root {
+  /* Couleur principale */
+  --md-primary-fg-color: #1F5F7A;
+  --md-primary-fg-color--light: #3A7D99;
+  --md-primary-fg-color--dark: #15445A;
+
+  /* Couleur d'accentuation */
+  --md-accent-fg-color: #E07B39;
+  --md-accent-fg-color--transparent: rgba(224, 123, 57, 0.1);
+}
+
+/* Mode sombre */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #1F5F7A;
+  --md-accent-fg-color: #E07B39;
+}
