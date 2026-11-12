@@ -11,6 +11,7 @@ nav :
   - RGPD : rgpd.md
   - Accessibilité : accessibilite.md
   - Organisation des dépôts : depots.md
+  - Suivi des tokens : suivi-tokens.md
 theme:
   name: material
   language: fr
