@@ -9,6 +9,7 @@ nav :
   - Comparatif technologique : comparatif.md
   - Choix de la technologie : technologie.md
   - RGPD : rgpd.md
+  - Accessibilité : accessibilite.md
   - Organisation des dépôts : depots.md
 theme:
   name: material
