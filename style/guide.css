@@ -1,0 +1,16 @@
+/* Guide utilisateur : captures d'écran et libellés de l'interface. */
+.md-typeset img.capture {
+  border: 1px solid #e1e4e7;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(46, 54, 60, 0.08);
+}
+
+/* Bouton ou menu de l'application, cité dans le texte. */
+.md-typeset .ui {
+  display: inline-block;
+  padding: 0 6px;
+  border: 1px solid #8a949b;
+  border-radius: 6px;
+  font-weight: 500;
+  white-space: nowrap;
+}
