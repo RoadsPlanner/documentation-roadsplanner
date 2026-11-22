@@ -1,6 +1,6 @@
 # Organisation des dépôts
 
-Le projet est hébergé sur l'organisation GitHub [RoadsPlanner](https://github.com/RoadsPlanner). Elle contient pour l'instant deux dépôts, en plus de celui de cette documentation.
+Le projet est hébergé sur l'organisation GitHub [RoadsPlanner](https://github.com/RoadsPlanner). Voici les dépôts liés à l'application et à sa documentation.
 
 ## roadsplanner
 
@@ -35,3 +35,9 @@ Dépôt qui regroupe le travail de conception réalisé avant le développement 
 ## documentation-roadsplanner
 
 Dépôt de ce site. Il est construit avec MkDocs et le thème Material, et il est publié automatiquement sur GitHub Pages à chaque push sur la branche `main` grâce à un workflow GitHub Actions.
+
+## guide-utilisateur-roadsplanner
+
+Dépôt du [guide utilisateur](https://roadsplanner.github.io/guide-utilisateur-roadsplanner/), destiné aux personnes qui utilisent l'application : créer un compte, préparer un roadtrip, partager un voyage. Il est séparé de cette documentation, qui s'adresse plutôt à l'équipe et au suivi du projet.
+
+Comme ce site, il est construit avec MkDocs et publié sur GitHub Pages à chaque push sur `main`.

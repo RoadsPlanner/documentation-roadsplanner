@@ -13,27 +13,7 @@ nav :
   - Organisation des dépôts : depots.md
   - Tests : tests.md
   - Suivi des tokens : suivi-tokens.md
-  - Guide utilisateur:
-      - Introduction: guide-utilisateur/index.md
-      - Premiers pas:
-          - Créer un compte: guide-utilisateur/premiers-pas/creer-un-compte.md
-          - Se connecter et se déconnecter: guide-utilisateur/premiers-pas/se-connecter.md
-          - Découvrir l'écran: guide-utilisateur/premiers-pas/decouvrir-l-ecran.md
-          - Installer l'application: guide-utilisateur/premiers-pas/installer.md
-      - Préparer un roadtrip:
-          - Créer un roadtrip: guide-utilisateur/roadtrip/creer.md
-          - Ajouter une étape: guide-utilisateur/roadtrip/ajouter-une-etape.md
-          - Choisir où dormir: guide-utilisateur/roadtrip/hebergement.md
-          - Suivre le roadtrip: guide-utilisateur/roadtrip/tableau-de-bord.md
-          - Voir le trajet sur la carte: guide-utilisateur/roadtrip/carte.md
-          - Modifier ou supprimer: guide-utilisateur/roadtrip/modifier-supprimer.md
-      - Voyager à plusieurs:
-          - Partager un roadtrip: guide-utilisateur/partage/partager.md
-          - Les droits de chacun: guide-utilisateur/partage/droits.md
-      - Aide:
-          - Questions fréquentes: guide-utilisateur/aide/faq.md
-          - Problèmes et solutions: guide-utilisateur/aide/problemes.md
-          - Lexique: guide-utilisateur/aide/lexique.md
+  - Guide utilisateur: https://roadsplanner.github.io/guide-utilisateur-roadsplanner/
 theme:
   name: material
   language: fr
@@ -70,4 +50,3 @@ markdown_extensions:
 extra_css:
   - style/classes.css
   - style/extra.css
-  - style/guide.css
