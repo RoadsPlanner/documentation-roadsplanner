@@ -6,15 +6,23 @@ Le projet est hébergé sur l'organisation GitHub [RoadsPlanner](https://github.
 
 Dépôt principal de l'application : **PWA de planification de road trips**.
 
-Pour l'instant, il contient la structure de base du projet :
+L'application est construite avec Next.js, TypeScript et PostgreSQL :
 
 ```
 roadsplanner/
-├── database/   # partie base de données
-└── public/     # fichiers publics de la PWA
+├── app/        # pages Next.js et point d'entrée de l'API (/api)
+├── src/
+│   ├── lib/        # types, constantes et règles partagés navigateur / serveur
+│   ├── server/     # API : contrôleurs, validation, sécurité, base de données
+│   ├── components/ # composants de l'interface
+│   ├── screens/    # écrans de l'application
+│   └── hooks/      # logique réutilisable de l'interface
+├── public/     # images et icônes de la PWA
+├── test/       # tests unitaires et d'intégration
+└── docs/       # stories, décisions techniques et maquettes
 ```
 
-Le code de l'application viendra s'ajouter au fur et à mesure du développement.
+Les tests sont présentés sur la page [Tests](tests.md).
 
 ## personas-comparatif
 

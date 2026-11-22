@@ -11,6 +11,7 @@ nav :
   - RGPD : rgpd.md
   - Accessibilité : accessibilite.md
   - Organisation des dépôts : depots.md
+  - Tests : tests.md
   - Suivi des tokens : suivi-tokens.md
   - Guide utilisateur:
       - Introduction: guide-utilisateur/index.md
